@@ -1,0 +1,10 @@
+a=list(map(int,input().split()))
+a.sort()
+s=len(a)//2
+f_half=a[:s]
+f_half=sorted(f_half)
+s_half=a[s:]
+s_half=sorted(s_half)
+des=s_half[::-1]
+l=f_half+des
+print(l)

@@ -1,0 +1,5 @@
+mydata=tuple(input().split())
+i=int(input())
+res=list(mydata).pop(i)
+print(res)
+print(mydata[::i]+mydata[i+1:])
